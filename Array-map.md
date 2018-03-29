@@ -58,7 +58,7 @@ console.log(Array.prototype.map.call('HelloWorld', val => val.charCodeAt(0)))
 
 ```javascript
 // 下面的语句返回什么呢:
-;['1', '2', '3'].map(parseInt)
+['1', '2', '3'].map(parseInt)
 // 你可能觉的会是[1, 2, 3]
 // 但实际的结果是 [1, NaN, NaN]
 
